@@ -22,9 +22,18 @@
 </script>
 
 <style>
+  .welcome-banner {
+    border: 1px solid;
+    position: relative;
+  }
 
+  .welcome-banner__image {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
 </style>
 
-<div>
-  <img {src} alt="c-space image" />
+<div class="welcome-banner">
+  <img class="welcome-banner__image" {src} alt="c-space image" />
 </div>

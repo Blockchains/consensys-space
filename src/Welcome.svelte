@@ -1,11 +1,9 @@
 <script>
-  import WelcomeHeader from "./WelcomeHeader.svelte";
   import Button from "./Button.svelte";
 </script>
 
 <style>
-  #main-header {
-    font-style: normal;
+  #welcome-banner__text-container {
     font-weight: 200;
     font-size: 142px;
     line-height: 173px;
@@ -43,13 +41,11 @@
 </style>
 
 <section>
-  <WelcomeHeader />
-  <div id="main-header">
+  <div id="welcome-banner__text-container">
     <p>open</p>
     <p>source</p>
     <p>space</p>
   </div>
-
   <div id="tile-wrapper">
     <div class="tile">
       <div class="image-wrapper">
