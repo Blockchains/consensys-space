@@ -4,8 +4,13 @@
 </script>
 
 <style>
-
+  a {
+    color: white;
+    left: 1em;
+    position: fixed;
+    top: 1em;
+  }
 </style>
 
-<header>consensys space</header>
+<a href="/">CONSENSYS SPACE</a>
 <Router {routes} />

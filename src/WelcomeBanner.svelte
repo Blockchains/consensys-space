@@ -1,6 +1,4 @@
 <script>
-  import { onMount } from "svelte";
-
   var imageSet = [
     "https://consensys-space-assets.s3.amazonaws.com/cover01.jpg",
     "https://consensys-space-assets.s3.amazonaws.com/cover02.jpg",
@@ -22,17 +20,20 @@
 </script>
 
 <style>
-  .welcome-banner {
+  div {
+    max-height: 800px;
     position: relative;
+    overflow: auto;
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    z-index: -1;
   }
 
-  .welcome-banner__image {
-    position: absolute;
-    width: 100%;
-    z-index: -1;
+  .welcome-banner::-webkit-scrollbar {
+    display: none;
   }
 </style>
 
 <div class="welcome-banner">
-  <img class="welcome-banner__image" {src} alt="c-space image" />
+  <img {src} alt="c-space image" />
 </div>

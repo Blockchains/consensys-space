@@ -5,32 +5,36 @@
 
 <style>
   main {
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 10em;
+    margin-top: -725px;
   }
 
-  #welcome-banner__text-container {
+  #tagline {
     font-weight: 200;
     font-size: 142px;
     line-height: 173px;
   }
 
   #tile-wrapper {
-    border: 1px solid white;
     display: flex;
-    margin-top: 5em;
+    margin-top: 6em;
   }
 
   .tile {
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
+    height: 550px;
     width: 460px;
   }
 
+  #pr-tile {
+    margin-right: 4em;
+  }
+
   .image-wrapper {
-    border: 1px solid white;
-    height: 260px;
+    margin-bottom: 1em;
     width: 460px;
   }
 
@@ -38,25 +42,27 @@
     font-weight: bold;
     font-size: 32px;
     line-height: 39px;
+    margin-bottom: 0.5em;
   }
 
   .tile p {
     font-size: 24px;
     line-height: 28px;
+    margin-bottom: auto;
   }
 </style>
 
 <WelcomeBanner />
 <main>
-  <div id="welcome-banner__text-container">
+  <div id="tagline">
     <p>open</p>
     <p>source</p>
     <p>space</p>
   </div>
   <div id="tile-wrapper">
-    <div class="tile">
+    <div id="pr-tile" class="tile">
       <div class="image-wrapper">
-        <img src="placeholder" alt="planetary resources" />
+        <img src="./images/asteroids.jpg" alt="planetary resources" />
       </div>
       <h2>Unlocking Planetary Resources’ Intellectual Property</h2>
       <p>A decade of innovation, yours to build upon</p>
@@ -64,7 +70,7 @@
     </div>
     <div class="tile">
       <div class="image-wrapper">
-        <img src="placeholder" alt="trusat" />
+        <img src="./images/asteroids.jpg" alt="trusat" />
       </div>
 
       <h2>Citizen-Powered Space Sustainability</h2>

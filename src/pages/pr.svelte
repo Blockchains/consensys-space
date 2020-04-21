@@ -36,19 +36,37 @@
 </script>
 
 <style>
+  #header-image-container {
+    position: relative;
+    max-height: 300px;
+    overflow: auto;
+    z-index: -1;
+    width: 100%;
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  }
+
+  #header-image-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  #header-image-container img {
+    height: auto;
+    width: 100%;
+  }
+
   main {
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 10em;
   }
 
   section {
-    border: 1px solid red;
     margin-bottom: 5em;
   }
 
   h1 {
     font-family: Montserrat;
-    font-style: normal;
     font-weight: 300;
     font-size: 64px;
     line-height: 78px;
@@ -60,6 +78,7 @@
   }
 
   .image-copy-wrapper img {
+    margin-right: 2em;
     width: 50%;
   }
 
@@ -73,6 +92,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 1em;
   }
 
   .image-copy-wrapper p:nth-of-type(2) {
@@ -84,7 +104,7 @@
   }
 
   #main-copy {
-    max-width: 600px;
+    max-width: 800px;
   }
 
   #main-copy p {
@@ -131,7 +151,7 @@
     font-family: Roboto;
     font-size: 16px;
     line-height: 19px;
-    max-width: 600px;
+    max-width: 800px;
   }
 
   #disclaimer-copy p {
@@ -139,12 +159,16 @@
   }
 </style>
 
-<img src="./images/pr_header.jpg" alt="pr header" />
+<div id="header-image-container">
+  <img src="./images/pr_header.jpg" alt="pr header" />
+
+</div>
+
 <main>
   <section id="copy-section">
     <h1>Planetary Resources Intellectual Property Pledge</h1>
     <div class="image-copy-wrapper">
-      <img src="" alt="launch party" />
+      <img src="./images/trusat_launch.jpg" alt="launch party" />
       <div>
         <p>
           I frequently get the question: ‘what are you doing with Planetary

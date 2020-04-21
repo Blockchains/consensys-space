@@ -3,21 +3,32 @@
 </script>
 
 <style>
-  img {
+  #header-container {
+    max-height: 300px;
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    position: relative;
+    z-index: -1;
+  }
+
+  #header-container img {
+    height: auto;
     width: 100%;
   }
 
   main {
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 10em;
+    margin-top: -5em;
   }
 
   section {
-    max-width: 600px;
+    max-width: 700px;
   }
 
   section:nth-of-type(2) {
-    padding-bottom: 6em;
+    margin-top: 2em;
   }
 
   h1 {
@@ -67,7 +78,10 @@
   }
 </style>
 
-<img src="./images/trusat_header.jpg" alt="pr header" />
+<div id="header-container">
+  <img src="./images/trusat_header.jpg" alt="pr header" />
+</div>
+
 <main>
   <section>
     <h1>Citizen-Powered Space Sustainability</h1>
