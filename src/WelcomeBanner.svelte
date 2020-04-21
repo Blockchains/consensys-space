@@ -23,7 +23,6 @@
 
 <style>
   .welcome-banner {
-    border: 1px solid;
     position: relative;
   }
 

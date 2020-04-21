@@ -14,7 +14,7 @@
     line-height: 21px;
     text-align: center;
     letter-spacing: 0.04em;
-    padding: 0.5em 1em;
+    padding: 0.5em 1.5em;
     text-transform: uppercase;
   }
 </style>

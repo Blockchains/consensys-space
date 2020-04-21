@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv public"
+    "dev": "routify -c my-server",
+    "start": "sirv public --single",
+    "my-server": "rollup -c -w"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "11.0.2",
@@ -16,7 +17,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^0.4.4",
-    "tinro": "^0.2.0"
+    "@sveltech/routify": "^1.5.3",
+    "sirv-cli": "^0.4.4"
   }
 }

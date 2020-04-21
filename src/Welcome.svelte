@@ -3,6 +3,11 @@
 </script>
 
 <style>
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
   #welcome-banner__text-container {
     font-weight: 200;
     font-size: 142px;
@@ -40,7 +45,7 @@
   }
 </style>
 
-<section>
+<main>
   <div id="welcome-banner__text-container">
     <p>open</p>
     <p>source</p>
@@ -68,5 +73,4 @@
       <Button text="more" to="/trusat" />
     </div>
   </div>
-
-</section>
+</main>
