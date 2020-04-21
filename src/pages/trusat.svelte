@@ -3,6 +3,10 @@
 </script>
 
 <style>
+  img {
+    width: 100%;
+  }
+
   main {
     max-width: 1200px;
     margin: 0 auto;
@@ -63,8 +67,8 @@
   }
 </style>
 
+<img src="./images/trusat_header.jpg" alt="pr header" />
 <main>
-  <img src="" alt="pr header" />
   <section>
     <h1>Citizen-Powered Space Sustainability</h1>
     <h2>

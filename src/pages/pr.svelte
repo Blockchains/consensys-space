@@ -139,7 +139,7 @@
   }
 </style>
 
-<img src="" alt="pr header" />
+<img src="./images/pr_header.jpg" alt="pr header" />
 <main>
   <section id="copy-section">
     <h1>Planetary Resources Intellectual Property Pledge</h1>
