@@ -99,8 +99,14 @@
   /* Mobile  */
   @media (max-width: 600px) {
     main {
-      margin-top: -250px;
+      margin-top: -150px;
       padding: 0em 1em 0em 1em;
+    }
+
+    #tagline {
+      font-weight: 200;
+      font-size: 100px;
+      line-height: 100px;
     }
 
     #pr-tile {
