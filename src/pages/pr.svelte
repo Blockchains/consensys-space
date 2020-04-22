@@ -5,38 +5,38 @@
       origin: "USA",
       date: "October 24, 2017",
       title: "Integrated Propulsion and Primary Structure for Microsatellites",
-      link: "https://patents.google.com/patent/US9796486B1/en?oq=9796486"
+      link: "https://patents.google.com/patent/US9796486B1/en"
     },
     {
-      number: "9,499,284",
+      number: "9,499,284B1",
       origin: "USA",
       date: "November 22, 2016",
       title:
         "Dual Use Imaging and Optical Communications System for Microsatellites",
-      link: "https://patents.google.com/patent/US9499284B1/en?oq=9499284"
+      link: "https://patents.google.com/patent/US9499284B1/en"
     },
     {
-      number: "9,499,284",
+      number: "9,409,658",
       origin: "USA",
       date: "August 9, 2016",
       title:
         "Space-Based Structures and Methods of Delivering Space-Sourced Materials",
-      link: ""
+      link: "https://patents.justia.com/patent/9409658"
     },
     {
-      number: "9,499,284",
+      number: "9,266,627B1",
       origin: "USA",
       date: "February 23, 2016",
       title:
         "Method, Apparatus, and System for Asteroid Prospecting and Mining",
-      link: ""
+      link: "https://patents.google.com/patent/US9266627B1/en"
     },
     {
       number: "D756,284",
       origin: "USA",
       date: "May 24, 2016",
       title: "Spacecraft System",
-      link: ""
+      link: "https://patents.justia.com/patent/D756886"
     }
   ];
 </script>
