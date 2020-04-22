@@ -3,16 +3,18 @@
 </script>
 
 <style>
-  #header-container {
-    max-height: 300px;
+  #hero-container {
+    height: 400px;
     -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
     mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
     position: relative;
     z-index: -1;
   }
 
-  #header-container img {
+  #hero-container img {
     height: auto;
+    /* Pulls image up */
+    margin-top: -220px;
     width: 100%;
   }
 
@@ -82,6 +84,11 @@
     main {
       padding: 0em 4em 0em 4em;
     }
+
+    #hero-container img {
+      /* Pulls image up */
+      margin-top: -120px;
+    }
   }
 
   /* Mobile */
@@ -89,6 +96,15 @@
     main {
       padding: 0em 1em 0em 1em;
       margin-top: 0;
+    }
+
+    #hero-container {
+      height: 200px;
+    }
+
+    #hero-container img {
+      /* Pulls image up */
+      margin-top: -25px;
     }
 
     h1 {
@@ -115,8 +131,8 @@
   }
 </style>
 
-<div id="header-container">
-  <img src="./images/trusat_header.jpg" alt="pr header" />
+<div id="hero-container">
+  <img src="./images/trusat_hero.png" alt="trusat hero" />
 </div>
 
 <main>

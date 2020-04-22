@@ -42,9 +42,9 @@
 </script>
 
 <style>
-  #header-image-container {
+  #hero-container {
     position: relative;
-    max-height: 300px;
+    height: 400px;
     overflow: auto;
     z-index: -1;
     width: 100%;
@@ -52,12 +52,14 @@
     mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
   }
 
-  #header-image-container::-webkit-scrollbar {
+  #hero-container::-webkit-scrollbar {
     display: none;
   }
 
-  #header-image-container img {
+  #hero-container img {
     height: auto;
+    /* Pulls image up */
+    margin-top: -250px;
     width: 100%;
   }
 
@@ -173,6 +175,11 @@
     main {
       padding: 0em 4em 0em 4em;
     }
+
+    #hero-container img {
+      /* Pulls image up */
+      margin-top: -120px;
+    }
   }
 
   /* Mobile */
@@ -180,6 +187,16 @@
     main {
       padding: 0em 1em 0em 1em;
       margin-top: 0;
+    }
+
+    #hero-container {
+      height: 200px;
+      border: 1px solid red;
+    }
+
+    #hero-container img {
+      /* Pulls image up */
+      margin-top: 0px;
     }
 
     h1 {
@@ -219,9 +236,8 @@
   }
 </style>
 
-<div id="header-image-container">
-  <img src="./images/pr_header.jpg" alt="pr header" />
-
+<div id="hero-container">
+  <img src="./images/pri_hero.jpg" alt="pr header" />
 </div>
 
 <main>

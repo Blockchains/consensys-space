@@ -16,6 +16,7 @@
     font-weight: 200;
     font-size: 142px;
     line-height: 173px;
+    margin: 0.5em 0em 1em 0em;
   }
 
   #tile-wrapper {
@@ -145,7 +146,7 @@
   <div id="tile-wrapper">
     <div id="pr-tile" class="tile">
       <div class="image-wrapper">
-        <img src="./images/asteroids.jpg" alt="planetary resources" />
+        <img src="./images/pri_thumb.jpg" alt="planetary resources" />
       </div>
       <h2>Unlocking Planetary Resources’ Intellectual Property</h2>
       <p>A decade of innovation, yours to build upon</p>
@@ -153,7 +154,7 @@
     </div>
     <div class="tile">
       <div class="image-wrapper">
-        <img src="./images/asteroids.jpg" alt="trusat" />
+        <img src="./images/trusat_thumb.jpg" alt="trusat" />
       </div>
 
       <h2>Citizen-Powered Space Sustainability</h2>

@@ -9,8 +9,17 @@
     left: 1em;
     position: fixed;
     top: 1em;
+    width: 300px;
+  }
+
+  @media (max-width: 600px) {
+    a {
+      display: none;
+    }
   }
 </style>
 
-<a href="/">CONSENSYS SPACE</a>
+<a href="/">
+  <img src={'./images/consensys_space_logo.png'} alt="c space logo" />
+</a>
 <Router {routes} />
