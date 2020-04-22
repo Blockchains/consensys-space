@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { fade, blur } from "svelte/transition";
+  import { blur } from "svelte/transition";
   import WelcomeBanner from "../WelcomeBanner.svelte";
   import Button from "../Button.svelte";
 
@@ -146,7 +146,7 @@
 
 <WelcomeBanner />
 <main>
-  <div transition:blur={{ amount: 10 }} id="tagline">
+  <div in:blur={{ duration: 1000, amount: 50 }} id="tagline">
     <p>OPEN</p>
     <p>SOURCE</p>
     <p>SPACE</p>

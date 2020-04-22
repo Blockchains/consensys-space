@@ -191,7 +191,6 @@
 
     #hero-container {
       height: 200px;
-      border: 1px solid red;
     }
 
     #hero-container img {
