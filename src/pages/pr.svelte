@@ -168,6 +168,13 @@
     margin-bottom: 1em;
   }
 
+  /* Tablet */
+  @media (min-width: 600px) and (max-width: 1200px) {
+    main {
+      padding: 0em 4em 0em 4em;
+    }
+  }
+
   /* Mobile */
   @media (max-width: 600px) {
     main {

@@ -35,7 +35,7 @@
     font-family: Montserrat;
     font-weight: 300;
     font-size: 72px;
-    line-height: 88px;
+    line-height: 80px;
     margin-bottom: 0.25em;
   }
 
@@ -77,6 +77,14 @@
     margin-bottom: 2em;
   }
 
+  /* Tablet */
+  @media (min-width: 600px) and (max-width: 1200px) {
+    main {
+      padding: 0em 4em 0em 4em;
+    }
+  }
+
+  /* Mobile */
   @media (max-width: 600px) {
     main {
       padding: 0em 1em 0em 1em;

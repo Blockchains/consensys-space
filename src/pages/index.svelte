@@ -12,6 +12,7 @@
   }
 
   #tagline {
+    font-family: Montserrat;
     font-weight: 200;
     font-size: 142px;
     line-height: 173px;
@@ -55,7 +56,6 @@
   @media (min-width: 1200px) and (max-width: 1400px) {
     main {
       margin-top: -650px;
-      padding-left: 4em;
     }
   }
 
@@ -68,7 +68,13 @@
   /* Tablet */
   @media (min-width: 600px) and (max-width: 1200px) {
     main {
-      padding-left: 4em;
+      padding: 0em 4em 0em 4em;
+    }
+
+    #tagline {
+      font-weight: 200;
+      font-size: 100px;
+      line-height: 120px;
     }
 
     #pr-tile {
@@ -105,8 +111,8 @@
 
     #tagline {
       font-weight: 200;
-      font-size: 100px;
-      line-height: 100px;
+      font-size: 60px;
+      line-height: 80px;
     }
 
     #pr-tile {
@@ -132,9 +138,9 @@
 <WelcomeBanner />
 <main>
   <div id="tagline">
-    <p>open</p>
-    <p>source</p>
-    <p>space</p>
+    <p>OPEN</p>
+    <p>SOURCE</p>
+    <p>SPACE</p>
   </div>
   <div id="tile-wrapper">
     <div id="pr-tile" class="tile">
