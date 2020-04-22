@@ -59,6 +59,7 @@
     max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 10em;
+    margin-top: -5em;
   }
 
   section {
