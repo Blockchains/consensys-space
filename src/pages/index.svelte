@@ -1,6 +1,14 @@
 <script>
+  import { onMount } from "svelte";
+  import { fade, blur } from "svelte/transition";
   import WelcomeBanner from "../WelcomeBanner.svelte";
   import Button from "../Button.svelte";
+
+  let visible = false;
+
+  onMount(() => {
+    visible = true;
+  });
 </script>
 
 <style>
@@ -138,11 +146,12 @@
 
 <WelcomeBanner />
 <main>
-  <div id="tagline">
+  <div transition:blur={{ amount: 10 }} id="tagline">
     <p>OPEN</p>
     <p>SOURCE</p>
     <p>SPACE</p>
   </div>
+
   <div id="tile-wrapper">
     <div id="pr-tile" class="tile">
       <div class="image-wrapper">
@@ -156,7 +165,6 @@
       <div class="image-wrapper">
         <img src="./images/trusat_thumb.jpg" alt="trusat" />
       </div>
-
       <h2>Citizen-Powered Space Sustainability</h2>
       <p>
         Designed and incubated by ConsenSys, built and powered by a global open
