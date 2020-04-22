@@ -99,7 +99,7 @@
   /* Mobile  */
   @media (max-width: 600px) {
     main {
-      margin-top: -150px;
+      margin-top: -120px;
       padding: 0em 1em 0em 1em;
     }
 

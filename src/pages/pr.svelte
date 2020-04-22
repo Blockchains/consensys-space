@@ -78,13 +78,16 @@
     display: flex;
   }
 
-  .image-copy-wrapper img {
-    margin-right: 2em;
+  .image-copy-wrapper div {
     width: 50%;
   }
 
-  .image-copy-wrapper div {
-    width: 50%;
+  .image-wrapper {
+    margin-right: 2em;
+  }
+
+  .image-wrapper img {
+    width: 100%;
   }
 
   .image-copy-wrapper p:first-of-type {
@@ -158,6 +161,49 @@
   #disclaimer-copy p {
     margin-bottom: 1em;
   }
+
+  /* Mobile */
+  @media (max-width: 600px) {
+    main {
+      padding: 0em 1em 0em 1em;
+      margin-top: 0;
+    }
+
+    h1 {
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 45px;
+    }
+
+    .image-copy-wrapper {
+      flex-wrap: wrap;
+    }
+
+    .image-copy-wrapper div {
+      width: 100%;
+    }
+
+    .image-wrapper {
+      margin-bottom: 1em;
+      margin-right: 0;
+    }
+
+    #main-copy p {
+      font-family: Roboto;
+      font-size: 18px;
+      line-height: 24px;
+      margin-top: 1em;
+    }
+
+    .list-item a {
+      color: white;
+      font-family: Roboto;
+      font-size: 18px;
+      line-height: 24px;
+      /* Highlight that its a link on mobile */
+      text-decoration: underline;
+    }
+  }
 </style>
 
 <div id="header-image-container">
@@ -169,7 +215,9 @@
   <section id="copy-section">
     <h1>Planetary Resources Intellectual Property Pledge</h1>
     <div class="image-copy-wrapper">
-      <img src="./images/trusat_launch.jpg" alt="launch party" />
+      <div class="image-wrapper">
+        <img src="./images/trusat_launch.jpg" alt="launch party" />
+      </div>
       <div>
         <p>
           I frequently get the question: ‘what are you doing with Planetary
@@ -182,7 +230,6 @@
         </p>
         <p>~Joseph Lubin, October 21, 2019</p>
       </div>
-
     </div>
 
     <div id="main-copy">

@@ -76,6 +76,35 @@
   p:nth-of-type(2) {
     margin-bottom: 2em;
   }
+
+  @media (max-width: 600px) {
+    main {
+      padding: 0em 1em 0em 1em;
+      margin-top: 0;
+    }
+
+    h1 {
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 45px;
+    }
+
+    h2 {
+      font-family: Roboto;
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 1em;
+      margin-top: 0.75em;
+    }
+
+    p {
+      font-family: Roboto;
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 1em;
+    }
+  }
 </style>
 
 <div id="header-container">
