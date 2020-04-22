@@ -4,33 +4,39 @@
       number: "9,796,486",
       origin: "USA",
       date: "October 24, 2017",
-      title: "Integrated Propulsion and Primary Structure for Microsatellites"
+      title: "Integrated Propulsion and Primary Structure for Microsatellites",
+      link: "https://patents.google.com/patent/US9796486B1/en?oq=9796486"
     },
     {
       number: "9,499,284",
       origin: "USA",
       date: "November 22, 2016",
       title:
-        "Dual Use Imaging and Optical Communications System for Microsatellites"
+        "Dual Use Imaging and Optical Communications System for Microsatellites",
+      link: "https://patents.google.com/patent/US9499284B1/en?oq=9499284"
     },
     {
       number: "9,499,284",
       origin: "USA",
       date: "August 9, 2016",
       title:
-        "Space-Based Structures and Methods of Delivering Space-Sourced Materials "
+        "Space-Based Structures and Methods of Delivering Space-Sourced Materials",
+      link: ""
     },
     {
       number: "9,499,284",
       origin: "USA",
       date: "February 23, 2016",
-      title: "Method, Apparatus, and System for Asteroid Prospecting and Mining"
+      title:
+        "Method, Apparatus, and System for Asteroid Prospecting and Mining",
+      link: ""
     },
     {
       number: "D756,284",
       origin: "USA",
       date: "May 24, 2016",
-      title: "Spacecraft System"
+      title: "Spacecraft System",
+      link: ""
     }
   ];
 </script>
@@ -264,7 +270,7 @@
           <p>
             {`Patent No ${patent.number} | ${patent.origin} | ${patent.date}`}
           </p>
-          <a href="/placeholder" target="_blank" rel="noopener noreferrer">
+          <a href={patent.link} target="_blank" rel="noopener noreferrer">
             {patent.title}
           </a>
         </li>
