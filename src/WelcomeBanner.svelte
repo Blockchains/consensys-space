@@ -32,6 +32,12 @@
   .welcome-banner::-webkit-scrollbar {
     display: none;
   }
+
+  @media (max-width: 800px) {
+    .welcome-banner {
+      max-height: 500px;
+    }
+  }
 </style>
 
 <div class="welcome-banner">

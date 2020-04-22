@@ -19,6 +19,7 @@
 
   #tile-wrapper {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 6em;
   }
 
@@ -49,6 +50,76 @@
     font-size: 24px;
     line-height: 28px;
     margin-bottom: auto;
+  }
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    main {
+      margin-top: -650px;
+      padding-left: 4em;
+    }
+  }
+
+  @media (min-width: 1000px) and (max-width: 1200px) {
+    main {
+      margin-top: -550px;
+    }
+  }
+
+  /* Tablet */
+  @media (min-width: 600px) and (max-width: 1200px) {
+    main {
+      padding-left: 4em;
+    }
+
+    #pr-tile {
+      margin-bottom: 6em;
+    }
+
+    .tile {
+      height: auto;
+    }
+
+    .tile p {
+      margin-bottom: 1em;
+    }
+  }
+
+  @media (min-width: 800px) and (max-width: 1000px) {
+    main {
+      margin-top: -450px;
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 800px) {
+    main {
+      margin-top: -350px;
+    }
+  }
+
+  /* Mobile  */
+  @media (max-width: 600px) {
+    main {
+      margin-top: -250px;
+      padding: 0em 1em 0em 1em;
+    }
+
+    #pr-tile {
+      margin-bottom: 6em;
+      margin-right: 0;
+    }
+
+    .tile {
+      height: auto;
+      width: 100%;
+    }
+
+    .image-wrapper {
+      width: 100%;
+    }
+
+    .tile p {
+      margin-bottom: 1em;
+    }
   }
 </style>
 
