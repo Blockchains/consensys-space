@@ -126,6 +126,12 @@
     margin-top: 1em;
   }
 
+  /* The last block of text styled to match the disclaimer */
+  #main-copy p:nth-of-type(3) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
   #patents-section h2 {
     font-family: Roboto;
     font-style: normal;
@@ -161,8 +167,8 @@
 
   #disclaimer-copy {
     font-family: Roboto;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 18px;
+    line-height: 24px;
     max-width: 800px;
   }
 
@@ -224,13 +230,28 @@
       margin-top: 1em;
     }
 
+    #main-copy p:nth-of-type(3) {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .list-item p {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
     .list-item a {
       color: white;
       font-family: Roboto;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 24px;
       /* Highlight that its a link on mobile */
       text-decoration: underline;
+    }
+
+    #disclaimer-copy {
+      font-size: 14px;
+      line-height: 18px;
     }
   }
 </style>
@@ -307,11 +328,6 @@
       </p>
       <p>
         This Intellectual Property Pledge does not encompass Trademark rights.
-      </p>
-      <p>
-        ConsenSys will endeavor to make previously unpublished Planetary
-        Resources materials available, to the extent permitted by export
-        controls and other applicable laws.
       </p>
     </div>
   </section>
