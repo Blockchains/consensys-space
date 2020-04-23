@@ -1,6 +1,6 @@
 # ConsenSys Space
 
-This repo contains the Svelte code for the [ConsenSys Space](https://consensys.space) team homepage.
+This repo contains the front-end code for the [ConsenSys Space](https://consensys.space) team homepage.
 
 This repo was bootstrapped with a [Svelte](https://svelte.dev) template that lives at https://github.com/sveltejs/template.
 
@@ -11,7 +11,7 @@ This repo was bootstrapped with a [Svelte](https://svelte.dev) template that liv
 Clone the repo and install the dependencies...
 
 ```bash
-https://github.com/johngribbin/consensys-space.git
+git clone https://github.com/johngribbin/consensys-space.git
 cd consensys-space
 yarn install
 ```
