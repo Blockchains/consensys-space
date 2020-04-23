@@ -1,14 +1,10 @@
 # ConsenSys Space
 
-This repo contains the Svelte code used to create the homepage for the ConsenSys Space team.
-
-See the live site [here](https://consensys.space)
-
----
-
-## svelte app
+This repo contains the Svelte code for the [ConsenSys Space](https://consensys.space) team homepage.
 
 This repo was bootstrapped with a [Svelte](https://svelte.dev) template that lives at https://github.com/sveltejs/template.
+
+---
 
 ## Get started
 
