@@ -257,7 +257,9 @@
 </style>
 
 <div id="hero-container">
-  <img src="./images/pri_hero.jpg" alt="pr header" />
+  <img
+    src="https://consensys-space-assets.s3.amazonaws.com/pri_hero.jpg"
+    alt="pr header" />
 </div>
 
 <main>
@@ -265,7 +267,9 @@
     <h1>Planetary Resources Intellectual Property Pledge</h1>
     <div class="image-copy-wrapper">
       <div class="image-wrapper">
-        <img src="./images/trusat_launch.jpg" alt="launch party" />
+        <img
+          src="https://consensys-space-assets.s3.amazonaws.com/trusat_launch.jpg"
+          alt="launch party" />
       </div>
       <div>
         <p>

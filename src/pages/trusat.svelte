@@ -132,7 +132,9 @@
 </style>
 
 <div id="hero-container">
-  <img src="./images/trusat_hero.png" alt="trusat hero" />
+  <img
+    src="https://consensys-space-assets.s3.amazonaws.com/trusat_hero.jpg"
+    alt="trusat hero" />
 </div>
 
 <main>

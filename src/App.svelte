@@ -31,7 +31,9 @@
 
 {#if visible}
   <a transition:fade={{ duration: 500 }} href="/">
-    <img src={'./images/consensys_space_logo.png'} alt="c space logo" />
+    <img
+      src={'https://consensys-space-assets.s3.amazonaws.com/consensys_space_logo.png'}
+      alt="c space logo" />
   </a>
 {/if}
 

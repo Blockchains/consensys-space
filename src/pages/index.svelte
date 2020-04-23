@@ -155,7 +155,9 @@
   <div id="tile-wrapper">
     <div id="pr-tile" class="tile">
       <div class="image-wrapper">
-        <img src="./images/pri_thumb.jpg" alt="planetary resources" />
+        <img
+          src="https://consensys-space-assets.s3.amazonaws.com/pri_thumb.jpg"
+          alt="planetary resources" />
       </div>
       <h2>Unlocking Planetary Resources’ Intellectual Property</h2>
       <p>A decade of innovation, yours to build upon</p>
@@ -163,7 +165,9 @@
     </div>
     <div class="tile">
       <div class="image-wrapper">
-        <img src="./images/trusat_thumb.jpg" alt="trusat" />
+        <img
+          src="https://consensys-space-assets.s3.amazonaws.com/trusat_thumb.jpg"
+          alt="trusat" />
       </div>
       <h2>Citizen-Powered Space Sustainability</h2>
       <p>
