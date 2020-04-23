@@ -146,11 +146,13 @@
 
 <WelcomeBanner />
 <main>
-  <div in:blur={{ duration: 1000, amount: 50 }} id="tagline">
-    <p>OPEN</p>
-    <p>SOURCE</p>
-    <p>SPACE</p>
-  </div>
+  {#if visible}
+    <div in:blur={{ duration: 1000, amount: 50 }} id="tagline">
+      <p>OPEN</p>
+      <p>SOURCE</p>
+      <p>SPACE</p>
+    </div>
+  {/if}
 
   <div id="tile-wrapper">
     <div id="pr-tile" class="tile">
