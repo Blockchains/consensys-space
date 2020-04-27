@@ -15,7 +15,14 @@
     text-align: center;
     letter-spacing: 0.04em;
     padding: 0.5em 1.5em;
+    text-decoration: none;
     text-transform: uppercase;
+  }
+
+  a:hover {
+    background: black;
+    border: 1px solid white;
+    color: white;
   }
 </style>
 
