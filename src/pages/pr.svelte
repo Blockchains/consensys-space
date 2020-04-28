@@ -230,7 +230,7 @@
       margin-top: 1em;
     }
 
-    #main-copy p:nth-of-type(3) {
+    #main-copy p:nth-of-type(4) {
       font-size: 14px;
       line-height: 18px;
     }
@@ -315,7 +315,7 @@
       </p>
       <p>
         “Planetary Resource Patent” means the following patents acquired by
-        ConsenSys from Planetary Resources
+        ConsenSys from Planetary Resources:
       </p>
     </div>
   </section>
