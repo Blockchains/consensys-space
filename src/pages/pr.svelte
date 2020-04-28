@@ -299,8 +299,19 @@
       </p>
       <p>
         ConsenSys irrevocably pledges that it will not initiate a lawsuit
-        against any person for infringing a Planetary Resource Patent or Space
-        Technology Intellectual Property, as defined below.
+        against any party for infringing a Planetary Resources Patent or
+        Planetary Resources Intellectual Property, for so long as such party is
+        acting in good faith. The key terms of this pledge are defined below.
+      </p>
+      <p>
+        A party is "acting in good faith" for so long as such party and its
+        related or affiliated companies have not filed a lawsuit or other legal
+        proceeding for patent or intellectual property infringement, or obtained
+        a direct financial interest in such lawsuit or other legal proceeding,
+        against ConsenSys or any entity controlled by ConsenSys or against any
+        third party based in whole or in part on any product or service
+        developed by or on behalf of ConsenSys or any entity controlled by
+        ConsenSys.
       </p>
       <p>
         “Planetary Resource Patent” means the following patents acquired by
@@ -326,12 +337,13 @@
 
     <div id="disclaimer-copy">
       <p>
-        "Space Technology Intellectual Property” means all unregistered
-        intellectual property in space exploration technology, including Trade
-        Secrets, acquired by ConsenSys from Planetary Resources.
+        "Planetary Resources Intellectual Property” means all unregistered
+        intellectual property in space exploration technology, including trade
+        secrets, to the extent acquired by ConsenSys from Planetary Resources.
       </p>
       <p>
-        This Intellectual Property Pledge does not encompass Trademark rights.
+        This intellectual property pledge does not encompass any trademark
+        rights.
       </p>
     </div>
   </section>
