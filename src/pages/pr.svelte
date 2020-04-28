@@ -132,6 +132,11 @@
     line-height: 24px;
   }
 
+  #main-copy p:nth-of-type(4) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
   #patents-section h2 {
     font-family: Roboto;
     font-style: normal;
@@ -228,6 +233,11 @@
       font-size: 18px;
       line-height: 24px;
       margin-top: 1em;
+    }
+
+    #main-copy p:nth-of-type(3) {
+      font-size: 14px;
+      line-height: 18px;
     }
 
     #main-copy p:nth-of-type(4) {
