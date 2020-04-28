@@ -324,7 +324,7 @@
         ConsenSys.
       </p>
       <p>
-        “Planetary Resource Patent” means the following patents acquired by
+        “Planetary Resources Patent” means the following patents acquired by
         ConsenSys from Planetary Resources:
       </p>
     </div>
