@@ -21,7 +21,7 @@
       date: "August 9, 2016",
       title:
         "Space-Based Structures and Methods of Delivering Space-Sourced Materials",
-      link: "https://patents.justia.com/patent/9409658"
+      link: "https://patents.google.com/patent/US9409658B1/"
     },
     {
       number: "9,266,627B1",
@@ -36,7 +36,7 @@
       origin: "USA",
       date: "May 24, 2016",
       title: "Spacecraft System",
-      link: "https://patents.justia.com/patent/D756886"
+      link: "https://patents.google.com/patent/USD756886S1/"
     }
   ];
 </script>
