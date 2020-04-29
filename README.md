@@ -11,7 +11,7 @@ This repo was bootstrapped with a [Svelte](https://svelte.dev) template that liv
 Clone the repo and install the dependencies...
 
 ```bash
-git clone https://github.com/johngribbin/consensys-space.git
+git clone https://github.com/ConsenSys/consensys-space.git
 cd consensys-space
 yarn install
 ```
